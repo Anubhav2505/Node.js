@@ -1,3 +1,7 @@
+//const validator =require('validator')
+const chalk =require('chalk')
 const getnotes = require('./notes.js')
 const copy = getnotes()
 console.log(copy)
+//console.log(validator.isEmail('deshwal1010@gmail.com'))
+console.log(chalk.green('success'))
